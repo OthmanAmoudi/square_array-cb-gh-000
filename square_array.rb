@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
   myarray = []
-  array.collect do |item|
-    item * item
+  array.each do |item|
+    myarray << item * item
   end
-  
+  myarray
 end
